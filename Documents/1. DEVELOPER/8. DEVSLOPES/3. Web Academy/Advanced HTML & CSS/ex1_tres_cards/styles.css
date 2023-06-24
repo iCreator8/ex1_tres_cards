@@ -90,26 +90,28 @@ a img {
 
 /* Mobile layout controls below  */
 
-/* .cards {
-	display: flex;
-	flex-direction: column;
-	gap: 3rem;
-}
+@media all (max-width: 510px) {
+	.cards {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
 
-.cards > div {
-	height: 22vh;
-	width: 80vw;
-}
+	.cards > div {
+		height: 22vh;
+		width: 80vw;
+	}
 
-h3 {
-	line-height: 1.5rem;
-	align-self: center;
-}
+	h3 {
+		line-height: 1.5rem;
+		align-self: center;
+	}
 
-h2 {
-	align-self: center;
-}
+	h2 {
+		align-self: center;
+	}
 
-a img {
-	left: 35vw;
-} */
+	a img {
+		left: 35vw;
+	}
+}
