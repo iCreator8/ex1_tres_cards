@@ -1,11 +1,11 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .cards {
-	background-color: white;
+	background-color: lightgray;
 	display: flex;
 	width: 100%;
 	height: 100vh;
@@ -21,6 +21,10 @@ body {
 	background-color: whitesmoke;
 	justify-content: space-evenly;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.cards > div:hover {
+	background-color: lightgreen;
 }
 
 .card1,
