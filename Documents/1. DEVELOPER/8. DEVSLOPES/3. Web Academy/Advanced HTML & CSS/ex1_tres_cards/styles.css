@@ -60,6 +60,7 @@ h2 {
 	justify-self: start;
 	align-self: end;
 	font-size: 1.5rem;
+	margin-right: 1.5rem;
 }
 
 h3 {
@@ -89,19 +90,20 @@ a img {
 
 /* Mobile layout controls below  */
 
-/* .cards {
+.cards {
 	display: flex;
 	flex-direction: column;
-	gap: 4rem;
+	gap: 3rem;
 }
 
 .cards > div {
-	height: 20vh;
+	height: 22vh;
 	width: 80vw;
 }
 
 h3 {
-	line-height: 1.25rem;
+	line-height: 1.5rem;
+	align-self: center;
 }
 
 h2 {
@@ -109,10 +111,5 @@ h2 {
 }
 
 a img {
-	margin: 0;
+	left: 35vw;
 }
-
-a {
-	align-self: center;
-	color: red;
-} */
