@@ -81,7 +81,38 @@ a {
 }
 
 a img {
-	margin-left: 11rem;
-	width: 1.2rem;
+	width: 1.1rem;
 	transform: rotate(45deg);
+	position: relative;
+	left: 15vw;
 }
+
+/* Mobile layout controls below  */
+
+/* .cards {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}
+
+.cards > div {
+	height: 20vh;
+	width: 80vw;
+}
+
+h3 {
+	line-height: 1.25rem;
+}
+
+h2 {
+	align-self: center;
+}
+
+a img {
+	margin: 0;
+}
+
+a {
+	align-self: center;
+	color: red;
+} */
