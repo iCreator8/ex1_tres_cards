@@ -90,7 +90,7 @@ a img {
 
 /* Mobile layout controls below  */
 
-@media all (min-width: 310px) and (max-width: 490px) {
+@media only screen and (min-width: 310px) and (max-width: 510px) {
 	.cards {
 		display: flex;
 		flex-direction: column;
